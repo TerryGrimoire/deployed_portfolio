@@ -1,18 +1,30 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import terry from "../assets/terry.png";
+import Goodwitch from "../assets/Goodwitch.png";
+import github from "../assets/github.svg";
+import linkedin from "../assets/linkedin.svg";
 
-function AboutMe() {
+function AboutMe({ bgColor }) {
   return (
     <section id="About" className="section_container">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Grimoire Portfolio | About Me </title>
+      </Helmet>
       <h2>
-        About <span className="span">me</span>{" "}
+        About <span className="span">me</span>
       </h2>
       <div className="flex_container">
-        <img src={terry} alt="terry" className="img_medium_size" />
+        <img
+          src={bgColor.includes("good") ? Goodwitch : terry}
+          alt="terry"
+          className="img_medium_size"
+        />
         <div className="article_container">
           <article>
             <h3 className="finance">
-              <span className="span">5</span>years in Financial Sector
+              <span className="span"> 5 </span>years in Financial Sector
             </h3>
             <p>
               For more than five years, I have been working in the financial
@@ -51,6 +63,26 @@ function AboutMe() {
               this is what I am meant to be.
             </p>
           </article>
+          <div className="flex_container about_me_mobile">
+            <a
+              href="https://github.com/TerryGrimoire"
+              target="_blank"
+              rel="noreferrer"
+              className="flex_container about_me_a"
+            >
+              <p className="no_margin">Github profile</p>
+              <img src={github} alt="github" className="about_me_img" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/terry-grimoire/"
+              target="_blank"
+              rel="noreferrer"
+              className="flex_container about_me_a"
+            >
+              <p className="no_margin">Linkedin profile</p>
+              <img src={linkedin} alt="linkedin" className="about_me_img" />
+            </a>
+          </div>
         </div>
       </div>
     </section>

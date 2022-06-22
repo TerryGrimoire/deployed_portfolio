@@ -4,6 +4,7 @@ import earthkeeper from "../assets/earthkeeper.png";
 import eductesvieux from "../assets/eductesvieux.png";
 import dragrace from "../assets/dragrace.png";
 import portfolio from "../assets/portfolio.png";
+import werevart from "../assets/werevart.png";
 
 const projectData = [
   {
@@ -11,7 +12,7 @@ const projectData = [
     title: "Le Montecito 🍸",
     image: lemontecito,
     description:
-      "Le Montecito is one of my favourite bar in Nantes. A month before my intensive course started, I decided to train in HTML/CSS and created from scratch this website. It's my first project ever and a new version of the website is to be developped in a near future with React.",
+      "My first client, Le Montecito is a bar in Nantes. A month before my intensive course, Icreate a fully responsive website for a client using HTML/CSS",
     technologies: ["HTML5", "CSS3"],
     website: "https://www.lemontecito.fr/",
     github: "https://github.com/TerryGrimoire/Montecito",
@@ -21,7 +22,7 @@ const projectData = [
     title: "ERROR 404 ⛔",
     image: error404,
     description:
-      "First project in group - Wild Code School : We had 2 weeks to create a fully responsive website using mostly HTML and CSS. We also added some vanilla JavaScript but the main goal of this project was to train on HTML and CSS. After noticing that we no longer found the error 404 when navigating online, we decided to create a website to save the ERROR 404. The ERRROR 404 : Page not found, is part of the geek culture but also part of the web history. As developers, we must preserve those things and that's the reason why we started this project.",
+      "First project in intensive course: 2 weeks to create a fully responsive website using only HTML and CSS and JavaScript vanilla.",
     technologies: ["HTML5", "CSS3", "JavaScript Vanilla"],
     website:
       "https://kevinlavigne.github.io/projet1-error404/accueil.html?fbclid=IwAR3XNExTYM4jE2B1gzH3i3vIAAcGAxjpsATgBzjwkeCyQKI9MskNZz034oM",
@@ -32,7 +33,7 @@ const projectData = [
     title: "3arth-keeper 🌍",
     image: earthkeeper,
     description:
-      "Our second project at the Wild Code School. We now have to use React to create a responsive website. Our data must be fetched from APIs from our choice. We decided to create a website about the critical situation of the earth. We created our website based on the idea that we have 3 years left before it's too late. We read the report of the Intergovernmental Panel on Climate Change, IPCC and we decided that we have to do something about it.",
+      "Second project in the intensive course: Create a fully responsive website using React, fetching data from APIs.",
     technologies: ["HTML5", "CSS3", "JavaScript", "React", "API Rest"],
     website: "https://3arthkeeper.netlify.app/",
     github: "https://github.com/TerryGrimoire/3arth-keeper",
@@ -42,7 +43,7 @@ const projectData = [
     title: "EducTesVieux 👧",
     image: eductesvieux,
     description:
-      "It was created in 24H during a Hackathon. The chosen subject was ecology. We competed against 12 other teams. We won the second place of the Hackathon and the price for best UX Design.",
+      "First Hackathon : 24H to create a website using React. The chosen subject was ecology. We competed against 12 other teams. We won the second place of the Hackathon and the price for best UX Design.",
     technologies: ["HTML5", "CSS3", "JavaScript", "React", "API Rest"],
     website: "https://eductesvieux.netlify.app/",
     github: "https://github.com/TerryGrimoire/EducTesVieux",
@@ -62,9 +63,27 @@ const projectData = [
     title: "My portfolio 🪄",
     image: portfolio,
     description: "My personal portfolio with all my projects.",
-    technologies: ["HTML5", "CSS3", "JavaScript", "React", "API Rest"],
+    technologies: ["HTML5", "CSS3", "JavaScript", "React"],
     website: "https://github.com/TerryGrimoire/Portefolio",
     github: "https://github.com/TerryGrimoire/Portefolio",
+  },
+  {
+    id: 6,
+    title: "We Rev'Art 🎨",
+    image: werevart,
+    description:
+      "Third project: Real client giving asking us to create his website from scratch. The entire frontend, backend and database. Using React, Express, HTML and CSS. ",
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "Node JS",
+      "Express JS",
+    ],
+    website: "https://we-rev-art.remote-fr-4.wilders.dev/",
+    github:
+      "https://github.com/WildCodeSchool/2022-03-JS-Remote-404-we_rev_art",
   },
 ];
 

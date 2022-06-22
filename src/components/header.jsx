@@ -22,10 +22,10 @@ export default function Header({ setBgColor }) {
   }, [good, bad]);
 
   return (
-    <header className="section_container">
+    <header className="section_container" id="Home">
       <div className="welcome_section">
         <h1> Welcome to my Grimoire !</h1>
-        <h2>Are you a good witch or a bad witch ?</h2>
+        <h2 className="acc">Are you a good witch or a bad witch ?</h2>
       </div>
 
       <div className="buttons_container">
