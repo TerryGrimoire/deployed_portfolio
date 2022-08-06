@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import Header from "../components/header";
-import AboutMe from "../components/AboutMe";
-import Skills from "../components/Skills";
-import Projects from "../components/Projects";
-import Contact from "../components/Contact";
+import Header from "../components/EN/header";
+import FR from "../components/FR/FR";
+import EN from "../components/EN/EN";
 
 import "../App.css";
 
 export default function Home() {
   const [bgColor, setBgColor] = useState("container");
+  const [language, setLanguage] = useState("fr");
   const [ouija, setOuija] = useState("arrow_button");
 
   return (
@@ -18,15 +17,17 @@ export default function Home() {
         <meta charSet="utf-8" />
         <title>Grimoire Portfolio | Home </title>
       </Helmet>
-      <Header setBgColor={setBgColor} />
-      {bgColor !== "container" && (
-        <div>
-          <AboutMe bgColor={bgColor} />
-          <Skills bgColor={bgColor} />
-          <Projects bgColor={bgColor} />
-          <Contact setOuija={setOuija} ouija={ouija} />
-        </div>
-      )}
+      <Header
+        setBgColor={setBgColor}
+        language={language}
+        setLanguage={setLanguage}
+      />
+      {bgColor !== "container" &&
+        (language === "fr" ? (
+          <FR ouija={ouija} setOuija={setOuija} bgColor={bgColor} />
+        ) : (
+          <EN ouija={ouija} setOuija={setOuija} bgColor={bgColor} />
+        ))}
     </main>
   );
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import terry from "../assets/terry.png";
-import Goodwitch from "../assets/Goodwitch.png";
-import github from "../assets/github.svg";
-import linkedin from "../assets/linkedin.svg";
+import terry from "../../assets/terry.png";
+import Goodwitch from "../../assets/Goodwitch.png";
+import github from "../../assets/github.svg";
+import linkedin from "../../assets/linkedin.svg";
 
 function AboutMe({ bgColor }) {
   return (

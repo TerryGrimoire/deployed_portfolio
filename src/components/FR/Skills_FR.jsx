@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import skillsData from "../data/skillsData";
+import skillsData from "../../data/skillsData";
 
 function Skills() {
   const [skills, setSkills] = useState("hard");
 
   return (
     <section>
-      <h2 className="skills_title">Skills</h2>
+      <h2 className="skills_title">Compétences</h2>
       <div className="button_container">
         <button
           type="button"
@@ -15,7 +15,7 @@ function Skills() {
           }
           onClick={() => setSkills("hard")}
         >
-          Hard Skills
+          Compétences techniques
         </button>
         <button
           type="button"
@@ -24,7 +24,7 @@ function Skills() {
           }
           onClick={() => setSkills("soft")}
         >
-          Soft Skills
+          Compétences douces
         </button>
       </div>
 
@@ -34,7 +34,7 @@ function Skills() {
           .map((el) => (
             <div className="skill_container">
               <img src={el.image} alt={el.title} className="logo_skills" />
-              <p> {el.title} </p>
+              <p> {el.titre} </p>
             </div>
           ))}
       </div>

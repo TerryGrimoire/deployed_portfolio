@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import emailjs from "@emailjs/browser";
 
-import broom from "../assets/broom.gif";
+import broom from "../../assets/broom.gif";
 
 function Contact({ setOuija, ouija }) {
   /**
@@ -87,7 +87,7 @@ function Contact({ setOuija, ouija }) {
           />
         </label>
         <label htmlFor="messageInput">
-          Votre message
+          Your message
           <textarea
             type="text"
             name="sujetlInput"
