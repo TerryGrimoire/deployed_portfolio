@@ -50,7 +50,7 @@ function Contact({ setOuija, ouija }) {
   };
 
   return (
-    <section>
+    <section className="contact_form_container">
       <h2 className="skills_title">Contact me</h2>
       <form
         action="form"

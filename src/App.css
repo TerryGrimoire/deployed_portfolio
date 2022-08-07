@@ -103,8 +103,13 @@ header {
 
 .sticky {
   position: sticky;
-  bottom: 50px;
+  bottom: 0px;
   right: 5px;
+  z-index: 1;
+  padding: 1rem;
+}
+.contact_form_container {
+  position: relative;
 }
 
 .arrow_button {
