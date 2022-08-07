@@ -5,6 +5,8 @@ import eductesvieux from "../assets/eductesvieux.png";
 import dragrace from "../assets/dragrace.png";
 import portfolio from "../assets/portfolio.png";
 import werevart from "../assets/werevart.png";
+import bitch from "../assets/bitch.png";
+import toxique from "../assets/toxique.png";
 
 const projectData = [
   {
@@ -84,6 +86,40 @@ const projectData = [
     website: "https://we-rev-art.remote-fr-4.wilders.dev/",
     github:
       "https://github.com/WildCodeSchool/2022-03-JS-Remote-404-we_rev_art",
+  },
+  {
+    id: 7,
+    title: "Bitch Me Please 🗣",
+    image: bitch,
+    description:
+      "Hackathon project where we were ask to make a tool to improve the company's communication",
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "Node JS",
+      "Express JS",
+    ],
+    website: "https://bitchmeplease.netlify.app",
+    github: "https://github.com/TerryGrimoire/Bitch-Me-Please",
+  },
+  {
+    id: 8,
+    title: "Toxique 🍄",
+    image: toxique,
+    description:
+      "Final project at school where we had to create an entire application front and backend",
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "Node JS",
+      "Express JS",
+    ],
+    website: "https://github.com/TerryGrimoire/Toxique",
+    github: "https://github.com/TerryGrimoire/Toxique",
   },
 ];
 
