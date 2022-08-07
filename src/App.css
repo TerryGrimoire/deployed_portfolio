@@ -40,6 +40,7 @@ section {
 
 h2 {
   font-size: 2rem;
+  padding: 2rem 0;
   animation: appear 2s;
   animation-delay: 5s;
   animation-fill-mode: forwards;
@@ -146,10 +147,11 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: fit-content;
 }
 .button_style {
   padding: 1rem 1rem;
-  margin: 0.5rem 2rem 0;
+  margin: 0rem 2rem;
   border-radius: 0.5rem;
   cursor: pointer;
   font-size: 2rem;
@@ -219,7 +221,6 @@ header {
 
 .section_container {
   display: flex;
-  flex-direction: column;
   padding: 3rem 5rem 0;
   text-align:center;
   height: 100vh;
@@ -555,14 +556,12 @@ textarea:focus, input:focus {
   * {
     font-size: 1.1rem;
   }
+
   section {
     height: min-content;
     box-shadow: none;
     align-items: center;
     overflow: hidden;
-  }
-  .section_container {
-    padding: 2rem;
   }
 
   .header_container {
@@ -576,19 +575,26 @@ h2 {
   font-size: 2rem;
 }
 
-.acc {
-  margin-bottom: 5rem;
+article { 
+  padding: 0 2rem;
 }
+
 
 .button_style {
   font-size: 1rem;
   padding: 0.5rem 0.5rem;
   width: 8rem;
-  margin: 1rem 1rem 3rem;
+  margin: 1rem 1rem 0rem;
 }
 
 .arrow_button {
   width: 30%;
+}
+
+.section_container_initial {
+  height: 100vh;
+  padding: 1rem;
+  text-align: center;
 }
 
 .section_container {

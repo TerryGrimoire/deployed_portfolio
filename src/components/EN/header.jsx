@@ -30,7 +30,14 @@ export default function Header({ setBgColor, language, setLanguage }) {
   }, [good, bad]);
 
   return (
-    <header className="section_container header_container" id="Home">
+    <header
+      className={
+        good && bad
+          ? "section_container header_container"
+          : "section_container_initial header_container"
+      }
+      id="Home"
+    >
       {language === "uk" ? (
         <div className="welcome_section">
           <h1> Welcome to my Grimoire !</h1>

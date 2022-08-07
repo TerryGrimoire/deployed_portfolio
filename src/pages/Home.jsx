@@ -7,7 +7,7 @@ import EN from "../components/EN/EN";
 import "../App.css";
 
 export default function Home() {
-  const [bgColor, setBgColor] = useState("container");
+  const [bgColor, setBgColor] = useState("");
   const [language, setLanguage] = useState("fr");
   const [ouija, setOuija] = useState("arrow_button");
 
