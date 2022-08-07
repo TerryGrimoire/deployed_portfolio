@@ -101,14 +101,13 @@ function Contact({ setOuija, ouija }) {
       </form>
 
       <HashLink to="#Home" className="sticky">
-        <button type="button" className="no_button">
-          <img
-            src={broom}
-            alt="broom"
-            className={ouija}
-            onMouseEnter={() => setOuija("arrow_button_hover")}
-            onMouseLeave={() => setOuija("arrow_button")}
-          />
+        <button
+          type="button"
+          className="no_button"
+          onMouseEnter={() => setOuija("arrow_button_hover")}
+          onMouseLeave={() => setOuija("arrow_button")}
+        >
+          <img src={broom} alt="broom" className={ouija} />
         </button>
       </HashLink>
     </section>
