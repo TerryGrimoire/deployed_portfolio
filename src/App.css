@@ -91,6 +91,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  height: 100vh;
 }
 
 .no_button {
@@ -553,6 +554,9 @@ textarea:focus, input:focus {
   display: flex ;
   flex-direction: column;
 }
+
+/** --------------------------------------------------- Mobile ---------------------------------------------------  **/
+
 
 @media screen and (max-width: 1400px){
 
