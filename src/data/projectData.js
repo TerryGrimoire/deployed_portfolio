@@ -7,6 +7,10 @@ import portfolio from "../assets/portfolio.png";
 import werevart from "../assets/werevart.png";
 import bitch from "../assets/bitch.png";
 import toxique from "../assets/toxique.png";
+import barber from "../assets/barber.png";
+import ASMK from "../assets/ASMK.png";
+import Charles from "../assets/Charles.png";
+import GN from "../assets/GN.png";
 
 const projectData = [
   {
@@ -83,9 +87,8 @@ const projectData = [
       "Node JS",
       "Express JS",
     ],
-    website: "https://we-rev-art.remote-fr-4.wilders.dev/",
-    github:
-      "https://github.com/WildCodeSchool/2022-03-JS-Remote-404-we_rev_art",
+    website: "https://werevart.netlify.app/",
+    github: "https://github.com/TerryGrimoire/WeRevArt-MongoDB",
   },
   {
     id: 7,
@@ -118,8 +121,44 @@ const projectData = [
       "Node JS",
       "Express JS",
     ],
-    website: "https://github.com/TerryGrimoire/Toxique",
+    website: "https://toxique.netlify.app/",
     github: "https://github.com/TerryGrimoire/Toxique",
+  },
+  {
+    id: 9,
+    title: "Barber 902",
+    image: barber,
+    description: "Creation of a website for a barber and haidressing saloon.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "React"],
+    website: "https://barber902.netlify.app/",
+    github: "https://github.com/TerryGrimoire/Barber902",
+  },
+  {
+    id: 10,
+    title: "Atas Sintir Met Kask",
+    image: ASMK,
+    description: "Creation of a website for a barber and haidressing saloon.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "React"],
+    website: "https://atas-sintir-met-kask.netlify.app/",
+    github: "https://github.com/TerryGrimoire/ASMK",
+  },
+  {
+    id: 11,
+    title: "Portefolio Charles Girouard",
+    image: Charles,
+    description: "Creation of a website for a barber and haidressing saloon.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "React"],
+    website: "https://charlesgirouard.fr/",
+    github: "https://github.com/TerryGrimoire/Portefolio-Charles",
+  },
+  {
+    id: 12,
+    title: "Grimoire Numérique",
+    image: GN,
+    description: "Creation of a website for a barber and haidressing saloon.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "React"],
+    website: "https://grimoire-numerique.re/",
+    github: "https://github.com/TerryGrimoire/Website-Terry-Grimoire",
   },
 ];
 
