@@ -16,6 +16,11 @@ export default function Home() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Grimoire Portfolio | Home </title>
+        <link rel="canonical" href="https://www.terry-grimoire.fr/" />
+        <meta
+          name="description"
+          content="Développeur web et fondateur du Grimoire Numérique, découvrez mon portefolio."
+        />
       </Helmet>
       <Header
         setBgColor={setBgColor}
