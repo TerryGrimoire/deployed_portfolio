@@ -15,7 +15,7 @@ export default function Home() {
     <main className={bgColor}>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Grimoire Portfolio | Home </title>
+        <title>Terry Grimoire Portfolio | Home </title>
         <link rel="canonical" href="https://www.terry-grimoire.fr/" />
         <meta
           name="description"
